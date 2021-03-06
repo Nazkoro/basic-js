@@ -8,10 +8,7 @@ module.exports = function createDreamTeam(arrayName) {
     resultShifr += arrFilter[i].trim().substring(0, 1).toUpperCase() 
     
   }
-  console.log(resultShifr);
- let a = resultShifr.split('')
- let b = a.sort()
- 
+
  return resultShifr.split('').sort().join('')
  
 };
